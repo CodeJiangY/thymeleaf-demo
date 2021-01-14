@@ -27,4 +27,8 @@ public class ThymeleafController {
         model.addAttribute("str","当地应季水果也很好吃撒，前一阵红心柚子又甜又清凉，最近耙耙柑和甘蔗，过一阵应该是冬枣，再有几个月是最喜欢的枇杷，夏天的菠萝哈密瓜葡萄红提等等 太多啦，没有冷链运输，健康安全，十块钱三斤，有时晚一点或者天气不好 五块钱三斤也很常见。");
         return "index.html";
     }
+
+    public String hh(){
+        return null;
+    }
 }
